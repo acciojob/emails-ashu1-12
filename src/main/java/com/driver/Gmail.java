@@ -117,10 +117,10 @@ public class Gmail extends Email {
     		//System.out.println("**********"+mail.getDate()+"**************");
     		if(mail.getDate().after(start) && mail.getDate().before(end))
     			count++;
-    		else if(mail.getDate().equals(start) || mail.getDate().equals(end)) {
-    			count++;
-    			//System.out.println("_____"+mail.getDate()+"__________");
-    		}
+//    		else if(mail.getDate().equals(start) || mail.getDate().equals(end)) {
+//    			count++;
+//    			//System.out.println("_____"+mail.getDate()+"__________");
+//    		}
     			
     		if(mail.getDate().after(end))
     			break;
